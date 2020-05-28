@@ -1,0 +1,57 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style/index.css">
+  <title>Desafio 2 - Bootcamp IGTI</title>
+</head>
+
+<body>
+  <div id="container">
+    <div>
+      <h1>USERS SEARCH</h1>
+      <div id="inputWrapper">
+        <input placeholder="SEARCH BY NAME" id="searchInput" type="text">
+        <button id="searchButton">SEARCH</button>
+      </div>
+    </div>
+
+    <div id="boxWrapper">
+      <div class="box usersBox">
+        <h2>USERS FOUND</h2>
+        <div id="users"> </div>
+      </div>
+      <div class="box">
+        <h2>STATISTICS</h2>
+        <div id="statistics">
+          <table>
+            <tr>
+              <td>USERS</td>
+              <td id="total" class="tdValue"></td>
+            </tr>
+            <tr>
+              <td>MALE</td>
+              <td id="male" class="tdValue"></td>
+            </tr>
+            <tr>
+              <td>FEMALE</td>
+              <td id="female" class="tdValue"></td>
+            </tr>
+            <tr>
+              <td>SUM OF AGES</td>
+              <td id="sum" class="tdValue"></td>
+            </tr>
+            <tr>
+              <td>AVERAGE AGE</td>
+              <td id="avg" class="tdValue"></td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+<script defer src="script/index.js"></script>
+
+</html>
